@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body{
+	margin: 0 auto;
+	width: 100%;
+}
+.slider{
+	overflow: hidden;
+	height: 400px;
+}
+.slider figure div{
+	float: left;
+	width: 33.33%;
+}
+.slider figure img{
+	width: 100%;
+	float: left;
+}
+.slider figure{
+	position: relative;
+	width: 300%;
+	margin: 0px;
+	animation: slide 20s infinite;
+}
+@keyframes slide{
+	0%{
+		left: 0%;
+	}
+
+	10%{
+        left: 0%; 
+	}
+	12%{
+		left: -100%;
+	}
+
+	22%{
+		left: -100%;
+	}
+
+	24%{
+		left: -100%;
+	}
+
+	34%{
+		left: -100%;
+	}
+
+	36%{
+		left: -200%;
+	}
+
+	46%{
+		left: -200%;
+	}
+
+	48%{
+		left: -200%;
+	}
+
+	58%{
+		left: -200%;
+	}
+
+	60%{
+		left: -200%;
+	}
+
+	70%{
+		left: -100%;
+	}
+
+	72%{
+		left: -100%;
+	}
+
+	82%{
+		left: -100%;
+	}
+
+	
+	84%{
+		left: -100%;
+	}
+
+	94%{
+		left: 0%;
+	}
+
+	96%{
+		left: 0%;
+	}
+
+}
+.float{
+	float: none;
+}
+.slide{
+	position: relative;
+}
+.slide:before{
+	content: "abcd";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: transparent;
+	color: #fff;
+}

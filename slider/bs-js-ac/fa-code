@@ -1,0 +1,15 @@
+<link rel="stylesheet" type="text/css" href="WOW-master/css/allfiles/animate.css" ><!---close animate.css
+
+<!----start wow.js or wow.min.js--->
+<script src="WOW-master/dist/wow.js"></script> 
+     
+     
+       <script>
+              new WOW().init();
+              </script>-->
+
+<!----close wow.js or wow.min.js--->
+
+<!---start fontawesome.com--->
+<script src="https://kit.fontawesome.com/e961cff339.js"></script>
+<!---close fontawesome.com--->
